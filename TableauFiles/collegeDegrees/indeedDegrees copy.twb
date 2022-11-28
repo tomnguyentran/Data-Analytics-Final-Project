@@ -1,0 +1,679 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0108.1039                               -->
+<workbook original-version='18.1' source-build='2021.4.3 (20214.22.0108.1039)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='indeedSoftware copy (indeedSoftwareDegrees)' inline='true' name='federated.0y6u0ow1q5r8jr19fgde31i8kftt' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='indeedSoftwareDegrees' name='excel-direct.089ju9r0dgxl8611fmktm12grzwe'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/tomtran/Desktop/BrainStation/Data Analytics/Project/dataProject/collegeDegrees/indeedSoftwareDegrees.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.089ju9r0dgxl8611fmktm12grzwe' name='indeedSoftware copy' table='[&apos;indeedSoftware copy$&apos;]' type='table'>
+          <columns gridOrigin='A1:T10001:no:A1:T10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='Company' ordinal='1' />
+            <column datatype='string' name='City' ordinal='2' />
+            <column datatype='string' name='Summary' ordinal='3' />
+            <column datatype='real' name='F5' ordinal='4' />
+            <column datatype='real' name='F6' ordinal='5' />
+            <column datatype='real' name='F7' ordinal='6' />
+            <column datatype='real' name='F8' ordinal='7' />
+            <column datatype='real' name='F9' ordinal='8' />
+            <column datatype='real' name='F10' ordinal='9' />
+            <column datatype='real' name='F11' ordinal='10' />
+            <column datatype='real' name='F12' ordinal='11' />
+            <column datatype='real' name='F13' ordinal='12' />
+            <column datatype='real' name='F14' ordinal='13' />
+            <column datatype='real' name='F15' ordinal='14' />
+            <column datatype='real' name='F16' ordinal='15' />
+            <column datatype='integer' name='bachelor' ordinal='16' />
+            <column datatype='integer' name='master' ordinal='17' />
+            <column datatype='string' name='Degrees' ordinal='18' />
+            <column datatype='real' name='Percentage' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.089ju9r0dgxl8611fmktm12grzwe' name='indeedSoftware copy' table='[&apos;indeedSoftware copy$&apos;]' type='table'>
+          <columns gridOrigin='A1:T10001:no:A1:T10001:0' header='yes' outcome='2'>
+            <column datatype='string' name='Name' ordinal='0' />
+            <column datatype='string' name='Company' ordinal='1' />
+            <column datatype='string' name='City' ordinal='2' />
+            <column datatype='string' name='Summary' ordinal='3' />
+            <column datatype='real' name='F5' ordinal='4' />
+            <column datatype='real' name='F6' ordinal='5' />
+            <column datatype='real' name='F7' ordinal='6' />
+            <column datatype='real' name='F8' ordinal='7' />
+            <column datatype='real' name='F9' ordinal='8' />
+            <column datatype='real' name='F10' ordinal='9' />
+            <column datatype='real' name='F11' ordinal='10' />
+            <column datatype='real' name='F12' ordinal='11' />
+            <column datatype='real' name='F13' ordinal='12' />
+            <column datatype='real' name='F14' ordinal='13' />
+            <column datatype='real' name='F15' ordinal='14' />
+            <column datatype='real' name='F16' ordinal='15' />
+            <column datatype='integer' name='bachelor' ordinal='16' />
+            <column datatype='integer' name='master' ordinal='17' />
+            <column datatype='string' name='Degrees' ordinal='18' />
+            <column datatype='real' name='Percentage' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:T10001:no:A1:T10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Company</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Company]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>Company</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Summary</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Summary]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>Summary</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F5</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F5]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>F5</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F6</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F6]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>F6</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F8</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F8]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>F8</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F9</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F9]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>F9</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F11</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F11]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>F11</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F12</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F12]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>F12</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F15]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bachelor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bachelor]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>bachelor</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>master</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[master]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>master</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Degrees</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Degrees]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>Degrees</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percentage]</local-name>
+            <parent-name>[indeedSoftware copy]</parent-name>
+            <remote-alias>Percentage</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Percentage' datatype='real' name='[Calculation_1702360674786648064]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[Percentage] * 100' />
+      </column>
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Percentage1' datatype='real' name='[Percentage]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='indeedSoftware copy' datatype='table' name='[__tableau_internal_object_id__].[indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA]' role='measure' type='quantitative' />
+      <column caption='Bachelor' datatype='integer' name='[bachelor]' role='measure' type='quantitative' />
+      <column caption='Master' datatype='integer' name='[master]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='indeedSoftware copy' id='indeedSoftware copy_9AF54AECCB804359BFC1A716346518EA'>
+            <properties context=''>
+              <relation connection='excel-direct.089ju9r0dgxl8611fmktm12grzwe' name='indeedSoftware copy' table='[&apos;indeedSoftware copy$&apos;]' type='table'>
+                <columns gridOrigin='A1:T10001:no:A1:T10001:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Name' ordinal='0' />
+                  <column datatype='string' name='Company' ordinal='1' />
+                  <column datatype='string' name='City' ordinal='2' />
+                  <column datatype='string' name='Summary' ordinal='3' />
+                  <column datatype='real' name='F5' ordinal='4' />
+                  <column datatype='real' name='F6' ordinal='5' />
+                  <column datatype='real' name='F7' ordinal='6' />
+                  <column datatype='real' name='F8' ordinal='7' />
+                  <column datatype='real' name='F9' ordinal='8' />
+                  <column datatype='real' name='F10' ordinal='9' />
+                  <column datatype='real' name='F11' ordinal='10' />
+                  <column datatype='real' name='F12' ordinal='11' />
+                  <column datatype='real' name='F13' ordinal='12' />
+                  <column datatype='real' name='F14' ordinal='13' />
+                  <column datatype='real' name='F15' ordinal='14' />
+                  <column datatype='real' name='F16' ordinal='15' />
+                  <column datatype='integer' name='bachelor' ordinal='16' />
+                  <column datatype='integer' name='master' ordinal='17' />
+                  <column datatype='string' name='Degrees' ordinal='18' />
+                  <column datatype='real' name='Percentage' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='College Degrees for Software Engineer'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='indeedSoftware copy (indeedSoftwareDegrees)' name='federated.0y6u0ow1q5r8jr19fgde31i8kftt' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0y6u0ow1q5r8jr19fgde31i8kftt'>
+            <column caption='Percentage' datatype='real' name='[Calculation_1702360674786648064]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[Percentage] * 100' />
+            </column>
+            <column datatype='string' name='[Degrees]' role='dimension' type='nominal' />
+            <column caption='Percentage1' datatype='real' name='[Percentage]' role='measure' type='quantitative' />
+            <column-instance column='[Degrees]' derivation='None' name='[none:Degrees:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_1702360674786648064]' derivation='Sum' name='[sum:Calculation_1702360674786648064:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0y6u0ow1q5r8jr19fgde31i8kftt].[none:Degrees:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Degrees:nk]' />
+              <groupfilter function='member' level='[none:Degrees:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0y6u0ow1q5r8jr19fgde31i8kftt].[none:Degrees:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0y6u0ow1q5r8jr19fgde31i8kftt].[sum:Calculation_1702360674786648064:qk]' field-type='quantitative' max='50.0' min='0.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0y6u0ow1q5r8jr19fgde31i8kftt].[sum:Calculation_1702360674786648064:qk]' value='n#,##0;-#,##0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0y6u0ow1q5r8jr19fgde31i8kftt].[sum:Calculation_1702360674786648064:qk]</rows>
+        <cols>[federated.0y6u0ow1q5r8jr19fgde31i8kftt].[none:Degrees:nk]</cols>
+      </table>
+      <simple-id uuid='{F3F6D5AF-2A6E-4BE2-AB5A-4A08F42EDE6D}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='College Degrees for Software Engineer'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0y6u0ow1q5r8jr19fgde31i8kftt].[none:Degrees:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{108CFD64-B51D-4DC0-B76C-37FA21701482}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='College Degrees for Software Engineer' width='352'>
+      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
+      SUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>

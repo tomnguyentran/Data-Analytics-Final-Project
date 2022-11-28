@@ -1,0 +1,481 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0108.1039                               -->
+<workbook original-version='18.1' source-build='2021.4.3 (20214.22.0108.1039)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='dataScience copy (dataScienceDegrees)' inline='true' name='federated.0568x9e1khkmwo1dwgjwu02n5u40' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='dataScienceDegrees' name='excel-direct.0k6unzi0seq2q5117ammk0ox2so9'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='/Users/tomtran/Desktop/BrainStation/Data Analytics/Project/dataProject/collegeDegrees/dataScienceDegrees.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0k6unzi0seq2q5117ammk0ox2so9' name='dataScience copy' table='[&apos;dataScience copy$&apos;]' type='table'>
+          <columns gridOrigin='A1:H743:no:A1:H743:0' header='yes' outcome='2'>
+            <column datatype='string' name='Job Title' ordinal='0' />
+            <column datatype='string' name='Job Description' ordinal='1' />
+            <column datatype='string' name='Degree' ordinal='2' />
+            <column datatype='integer' name='bachelor' ordinal='3' />
+            <column datatype='integer' name='master' ordinal='4' />
+            <column datatype='integer' name='phd' ordinal='5' />
+            <column datatype='string' name='Degrees' ordinal='6' />
+            <column datatype='real' name='Percentage' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0k6unzi0seq2q5117ammk0ox2so9' name='dataScience copy' table='[&apos;dataScience copy$&apos;]' type='table'>
+          <columns gridOrigin='A1:H743:no:A1:H743:0' header='yes' outcome='2'>
+            <column datatype='string' name='Job Title' ordinal='0' />
+            <column datatype='string' name='Job Description' ordinal='1' />
+            <column datatype='string' name='Degree' ordinal='2' />
+            <column datatype='integer' name='bachelor' ordinal='3' />
+            <column datatype='integer' name='master' ordinal='4' />
+            <column datatype='integer' name='phd' ordinal='5' />
+            <column datatype='string' name='Degrees' ordinal='6' />
+            <column datatype='real' name='Percentage' ordinal='7' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[dataScience copy]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:H743:no:A1:H743:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Title</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Job Title]</local-name>
+            <parent-name>[dataScience copy]</parent-name>
+            <remote-alias>Job Title</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataScience copy_28C88AFA71A74153AB5C250B5D4EF5D9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Job Description</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Job Description]</local-name>
+            <parent-name>[dataScience copy]</parent-name>
+            <remote-alias>Job Description</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataScience copy_28C88AFA71A74153AB5C250B5D4EF5D9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Degree</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Degree]</local-name>
+            <parent-name>[dataScience copy]</parent-name>
+            <remote-alias>Degree</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataScience copy_28C88AFA71A74153AB5C250B5D4EF5D9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bachelor</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[bachelor]</local-name>
+            <parent-name>[dataScience copy]</parent-name>
+            <remote-alias>bachelor</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataScience copy_28C88AFA71A74153AB5C250B5D4EF5D9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>master</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[master]</local-name>
+            <parent-name>[dataScience copy]</parent-name>
+            <remote-alias>master</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataScience copy_28C88AFA71A74153AB5C250B5D4EF5D9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>phd</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[phd]</local-name>
+            <parent-name>[dataScience copy]</parent-name>
+            <remote-alias>phd</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataScience copy_28C88AFA71A74153AB5C250B5D4EF5D9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Degrees</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Degrees]</local-name>
+            <parent-name>[dataScience copy]</parent-name>
+            <remote-alias>Degrees</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataScience copy_28C88AFA71A74153AB5C250B5D4EF5D9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Percentage</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Percentage]</local-name>
+            <parent-name>[dataScience copy]</parent-name>
+            <remote-alias>Percentage</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[dataScience copy_28C88AFA71A74153AB5C250B5D4EF5D9]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='dataScience copy' datatype='table' name='[__tableau_internal_object_id__].[dataScience copy_28C88AFA71A74153AB5C250B5D4EF5D9]' role='measure' type='quantitative' />
+      <column caption='Bachelor' datatype='integer' name='[bachelor]' role='measure' type='quantitative' />
+      <column caption='Master' datatype='integer' name='[master]' role='measure' type='quantitative' />
+      <column caption='Phd' datatype='integer' name='[phd]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='dataScience copy' id='dataScience copy_28C88AFA71A74153AB5C250B5D4EF5D9'>
+            <properties context=''>
+              <relation connection='excel-direct.0k6unzi0seq2q5117ammk0ox2so9' name='dataScience copy' table='[&apos;dataScience copy$&apos;]' type='table'>
+                <columns gridOrigin='A1:H743:no:A1:H743:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Job Title' ordinal='0' />
+                  <column datatype='string' name='Job Description' ordinal='1' />
+                  <column datatype='string' name='Degree' ordinal='2' />
+                  <column datatype='integer' name='bachelor' ordinal='3' />
+                  <column datatype='integer' name='master' ordinal='4' />
+                  <column datatype='integer' name='phd' ordinal='5' />
+                  <column datatype='string' name='Degrees' ordinal='6' />
+                  <column datatype='real' name='Percentage' ordinal='7' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='College Degrees for Data Scientist'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>College Degrees for Data Scientist</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='dataScience copy (dataScienceDegrees)' name='federated.0568x9e1khkmwo1dwgjwu02n5u40' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0568x9e1khkmwo1dwgjwu02n5u40'>
+            <column datatype='string' name='[Degrees]' role='dimension' type='nominal' />
+            <column datatype='real' name='[Percentage]' role='measure' type='quantitative' />
+            <column-instance column='[Degrees]' derivation='None' name='[none:Degrees:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Percentage]' derivation='Sum' name='[sum:Percentage:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0568x9e1khkmwo1dwgjwu02n5u40].[none:Degrees:nk]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:Degrees:nk]' />
+              <groupfilter function='member' level='[none:Degrees:nk]' member='%null%' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0568x9e1khkmwo1dwgjwu02n5u40].[none:Degrees:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0568x9e1khkmwo1dwgjwu02n5u40].[sum:Percentage:qk]</rows>
+        <cols>[federated.0568x9e1khkmwo1dwgjwu02n5u40].[none:Degrees:nk]</cols>
+      </table>
+      <simple-id uuid='{5C2E5A09-92CE-46E1-B52A-7D4D0F1755E1}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='College Degrees for Data Scientist'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0568x9e1khkmwo1dwgjwu02n5u40].[none:Degree:nk]</field>
+            <field>[federated.0568x9e1khkmwo1dwgjwu02n5u40].[none:Degrees:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{E5BD54CE-473B-4AA1-BD23-3F1682E40812}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='College Degrees for Data Scientist' width='384'>
+      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
+      0WhUhYWFevrppz/TcBMA/KmMDIAkBYNB/dVf/ZWuXLmi3t5eFRUVqby8fMIjarm5ufqbv/kb
+      ZTKZ7DBNcXGxNm7cqEceeUTDw8MaHBxUKpVScXGxCgsLlZubO+7H5CzLUkVFhb7zne9k11dS
+      UqJgMKjc3FyeGAEwI4wNgGVZ8vl8mjt3rubOnTvpfJ9+IsiyLLndbrndbuXn50/ph9yuPTFU
+      UVHBD78BuCsYeRMYAEAAAMBYBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQ
+      BAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQ
+      BAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQ
+      BAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQ
+      BAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQ
+      BAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADEUAAMBQBAAADPX/AHEt
+      XTbWg9lSAAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>
